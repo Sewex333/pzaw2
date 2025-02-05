@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muzyczne VaBank</title>
+    <style>
+        body {
+            background-color: #efe4b0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #483dff;
+            text-align: center;
+        }
+        .button-container {
+            position: absolute;
+            left: 1vw;
+            top: 1vh;
+            width: 15vw;
+        }
+        .button {
+            width: 100%;
+            padding: 1vh;
+            background-color: gray;
+            border: 0.2vw solid black;
+            text-align: center;
+            cursor: pointer;
+            margin-bottom: 0.5vh;
+        }
+        .sidebar {
+            position: absolute;
+            left: 1vw;
+            top: 12vh;
+            width: 15vw;
+            background-color: lightgray;
+            padding: 1vh;
+            border: 0.2vw solid black;
+            text-align: left;
+        }
+        .game-container {
+            text-align: center;
+            margin-top: 5vh;
+        }
+        .play-button {
+            display: block;
+            width: 40vw;
+            padding: 5vh;
+            background-color: #009cff;
+            color: black;
+            font-size: 4vw;
+            font-weight: bold;
+            border: 0.2vw solid black;
+            margin: 5vh auto;
+        }
+        .small-button {
+            display: inline-block;
+            width: 15vw;
+            padding: 2vh;
+            background-color: #009cff;
+            border: 0.2vw solid black;
+            margin: 2vh;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("Strona załadowana");
+            document.querySelectorAll('.button, .play-button, .small-button').forEach(function(btn) {
+                btn.addEventListener('click', function() {
+                    console.log("Kliknięto przycisk: " + btn.textContent.trim());
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="button-container">
+        <div class="button">Utwórz Konto</div>
+        <div class="button">Zaloguj się</div>
+    </div>
+    <h1>Muzyczne VaBank</h1>
+    <div class="sidebar">
+        <b>Zalogowani Użytkownicy</b>
+        <ul>
+            <li>User 1</li>
+            <li>User 2</li>
+            <li>User 3</li>
+        </ul>
+    </div>
+    <div class="game-container">
+        <div class="play-button">GRAJ</div>
+        <div>
+            <div class="small-button">Ustawienia</div>
+            <div class="small-button">Statystyki</div>
+        </div>
+    </div>
+</body>
+</html>
