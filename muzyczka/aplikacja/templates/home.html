@@ -1,51 +1,34 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muzyka </title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        nav {
-            background-color: #333;
-            overflow: hidden;
-        }
-        nav a {
-            float: left;
-            display: block;
-            color: white;
-            padding: 14px 20px;
-            text-align: center;
-            text-decoration: none;
-        }
-        nav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        .content {
-            padding: 20px;
-        }
-    </style>
+    <title>Muzyczne VaBank</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+
 </head>
 <body>
-
-
-    <nav>
-        <a href="">1 odnośnik</a>
-        <a href="">2 odnośnik</a>
-        <a href="">3 odnośnik</a>
-        <a href="">4 odnośnik</a>
-    </nav>
-
-    <div class="content">
-        <h1>Strona Główna</h1>
-        <p><b>(content)</b></p>
+    <div class="button-container">
+        <a href=""><div class="button">Dodaj Konto</div></a>
+        <a href=""><div class="button">Utwórz Konto</div></a>
+        <a href=""><div class="button">Wyloguj  Konto</div></a>
     </div>
-
+    <h1>Muzyczne VaBank</h1>
+    <div class="sidebar">
+        <b>Zalogowani Użytkownicy</b>
+        <ul>
+            <li>User 1</li>
+            <li>User 2</li>
+            <li>User 3</li>
+        </ul>
+    </div>
+    <div class="game-container">
+        <a href=""> <div class="play-button">GRAJ</div></a> 
+        <div>
+            <a href=""> <div class="small-button">Ustawienia</div></a>
+            <a href=""><div class="small-button">Statystyki</div></a>
+        </div>
+    </div>
 </body>
 </html>

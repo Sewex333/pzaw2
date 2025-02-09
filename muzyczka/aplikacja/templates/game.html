@@ -1,0 +1,35 @@
+<h1>Gra VaBanq</h1>
+<h2>Aktualna kolej: {{ game.current_player.username }}</h2>
+
+<table border="1">
+    <tr>
+        <th>Kategoria</th>
+        <th>100</th>
+        <th>300</th>
+        <th>500</th>
+        <th>900</th>
+        <th>1100</th>
+        <th>1300</th>
+    </tr>
+    {% for category, questions in questions.items %}
+    <tr>
+        <td>{{ category.name }}</td>
+        {% for question in questions %}
+            <td>
+                {% if question.used %}
+                    -
+                {% else %}
+                    <a href="{% url 'question' game.id question.id %}">{{ question.points }}</a>
+                {% endif %}
+            </td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+
+<h2>Punktacja</h2>
+<ul>
+    {% for player in players %}
+        <li>{{ player.username }}: {{ player.games_played }}</li>
+    {% endfor %}
+</ul>
