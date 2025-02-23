@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Klubów</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <h1>Lista Klubów 24/25</h1>
+    <div class="club-list">
+        {% for club in clubs %}
+            <div class="club-card">
+                {% if club.logo %}
+                    <img src="{{ club.logo.url }}" alt="{{ club.name }} logo" class="club-logo">
+                {% endif %}
+                <h2><a href="{% url 'club_detail' club.id %}">{{ club.name }}</a></h2>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

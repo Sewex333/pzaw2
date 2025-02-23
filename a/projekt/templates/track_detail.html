@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ player.name }}</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <h1>{{ player.name }} (Numer: {{ player.number }})</h1> 
+    <h2>Pozycja: {{ player.position }}</h2>
+
+    <h3>Komentarze:</h3>
+
+    <div class="comments">
+        {% for comment in comments %}
+            <div class="comment">
+                <p><strong>{{ comment.user.username }}:</strong> {{ comment.content }}</p>
+            </div>
+        {% empty %}
+            <p>Brak komentarzy.</p>
+        {% endfor %}
+    </div>
+    
+    {% if user.is_authenticated %}
+
+    <form method="post" action="{% url 'add_comment' player.id %}">
+        {% csrf_token %}
+        <button type="submit">Dodaj komentarz</button>
+    </form>
+
+    {% else %}
+    <p>Logowanie wymagane. Zaloguj sie "/admin"</p>
+    {% endif %}
+    <a href="{% url 'club_detail' player.club.id %}">Wróć do:  {{ player.club.name }}</a><br>
+    <a href="/">Powrót na listę klubów </a>
+</body>
+</html>

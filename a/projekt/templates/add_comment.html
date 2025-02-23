@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dodaj komentarz</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    {% if user.is_authenticated %}
+    <div class="container">
+        <h1>Dodaj swój Komentarz na temat: {{ player.name }}</h1>
+        <div class="form-container">
+            <form method="post" class="comment-form">
+                {% csrf_token %}
+                <textarea name="content" rows="4" cols="50" placeholder="Napisz swój komentarz..."></textarea><br>
+                <button type="submit">Wyślij</button>
+            </form>    
+        </div>
+    </div>
+    {% else %}
+    <div class="auth-warning">
+        <p>Logowanie wymagane.</p>
+    </div>
+    {% endif %}
+    <ul class="navigation-links">
+        <li><a href="{% url 'player_detail' player.id %}">Powróć do: {{ player.name }}</a></li>
+        <li><a href="{% url 'club_detail' player.club.id %}">Wróć do: {{ player.club.name }}</a></li>
+        <li><a href="/">Powrót na listę klubów</a></li>
+    </ul>
+</body>
+</html>
