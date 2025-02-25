@@ -1,28 +1,25 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from .models import Club, Player, Comment
+from .models import Album, Track, Comment
 from django.contrib.auth.decorators import login_required
 
-def club_list(request):
-    clubs = Club.objects.all()
-    return render(request, 'club_list.html', {'clubs': clubs})
+def album_list(request):
+    albums = Album.objects.all()
+    return render(request, 'album_list.html', {'albums': albums})
 
-def club_detail(request, club_id):
-    club = get_object_or_404(Club, id=club_id)
-    return render(request, 'club_detail.html', {'club': club})
+def album_detail(request, album_id):
+    album = get_object_or_404(Album, id=album_id)
+    return render(request, 'album_detail.html', {'album': album})
 
-def player_detail(request, player_id):
-    player = get_object_or_404(Player, id=player_id)
-    comments = player.comments.all()
-    return render(request, 'player_detail.html', {'player': player, 'comments': comments})
-
+def track_detail(request, track_id):
+    track = get_object_or_404(Track, id=track_id)
+    comments = track.comments.all()
+    return render(request, 'track_detail.html', {'track': track, 'comments': comments})
 
 @login_required
-def add_comment(request, player_id):
-    player = get_object_or_404(Player, id=player_id)
+def add_comment(request, track_id):
+    track = get_object_or_404(Track, id=track_id)
     if request.method == 'POST':
         content = request.POST.get('content')
         if content:
-            Comment.objects.create(user=request.user, player=player, content=content)
-    return render(request, 'add_comment.html', {'player': player})
-
-
+            Comment.objects.create(user=request.user, track=track, content=content)
+    return render(request, 'add_comment.html', {'track': track})

@@ -1,29 +1,27 @@
 from django.db import models
 from django.contrib.auth.models import User
 
-class Club(models.Model):
-    name = models.CharField(max_length=100)
+class Album(models.Model):
+    title = models.CharField(max_length=100)
     description = models.TextField()
-    trophies = models.TextField()
-    logo = models.ImageField(upload_to='club_logos/', null=True, blank=True)  
+    cover = models.ImageField(upload_to='album_covers/', null=True, blank=True)
 
     def __str__(self):
-        return self.name
+        return self.title
 
-class Player(models.Model):
-    club = models.ForeignKey(Club, on_delete=models.CASCADE, related_name='players')
-    name = models.CharField(max_length=100)
-    number = models.PositiveIntegerField()  
-    position = models.CharField(max_length=100)
+class Track(models.Model):
+    album = models.ForeignKey(Album, on_delete=models.CASCADE, related_name='tracks')
+    title = models.CharField(max_length=100)
+    duration = models.DurationField()
 
     def __str__(self):
-        return f"{self.name} ({self.number})"
+        return self.title
 
 class Comment(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    player = models.ForeignKey(Player, on_delete=models.CASCADE, related_name='comments')
+    track = models.ForeignKey(Track, on_delete=models.CASCADE, related_name='comments')
     content = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f"Comment by {self.user.username} on {self.player.name}"
+        return f"Comment by {self.user.username} on {self.track.title}"

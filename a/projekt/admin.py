@@ -1,14 +1,14 @@
 from django.contrib import admin
-from .models import Club, Player, Comment
+from .models import Album, Track, Comment
 
-@admin.register(Club)
-class ClubAdmin(admin.ModelAdmin):
-    list_display = ('name', 'description', 'trophies')
+@admin.register(Album)
+class AlbumAdmin(admin.ModelAdmin):
+    list_display = ('title', 'description')
 
-@admin.register(Player)
-class PlayerAdmin(admin.ModelAdmin):
-    list_display = ('name', 'number', 'position', 'club')  
+@admin.register(Track)
+class TrackAdmin(admin.ModelAdmin):
+    list_display = ('title', 'duration', 'album')
 
 @admin.register(Comment)
 class CommentAdmin(admin.ModelAdmin):
-    list_display = ('player', 'user', 'content')
+    list_display = ('track', 'user', 'content', 'created_at')
