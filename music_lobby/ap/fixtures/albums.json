@@ -1925,7 +1925,7 @@
             "title": "Me Against the World",
             "artist": "2Pac",
             "release_year": 1995,
-            "cover_image": "https://upload.wikimedia.org/wikipedia/en/7/7e/2Pac_-_Me_Against_the_World.jpg"
+            "cover_image": "https://m.media-amazon.com/images/I/71gPZB2RxzL.jpg"
         }
     },
     {
@@ -2070,7 +2070,7 @@
             "title": "All Eyez on Me",
             "artist": "2Pac",
             "release_year": 1996,
-            "cover_image": "https://upload.wikimedia.org/wikipedia/en/0/0a/All_eyez_on_me.jpg"
+            "cover_image": "https://m.media-amazon.com/images/I/61+qKiRPXlL._UF1000,1000_QL80_.jpg"
         }
     },
     {
@@ -2206,7 +2206,7 @@
             "title": "Ready to Die",
             "artist": "The Notorious B.I.G.",
             "release_year": 1994,
-            "cover_image": "https://upload.wikimedia.org/wikipedia/en/5/51/Ready_to_Die.jpg"
+            "cover_image": "https://static.asfaltshop.pl/uploads/photos/20161026015552_readytodie.jpg"
         }
     },
     {
@@ -2369,7 +2369,7 @@
             "title": "Life After Death",
             "artist": "The Notorious B.I.G.",
             "release_year": 1997,
-            "cover_image": "https://upload.wikimedia.org/wikipedia/en/7/7f/The_Notorious_B.I.G._-_Life_After_Death.png"
+            "cover_image": "https://m.media-amazon.com/images/I/A12Zf24D5AL.jpg"
         }
     },
     {
@@ -2586,6 +2586,2280 @@
             "album": 15,
             "title": "You're Nobody (Til Somebody Kills You)",
             "duration": "4:52"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 16,
+        "fields": {
+            "title": "Doggystyle",
+            "artist": "Snoop Dogg",
+            "release_year": 1993,
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/6/63/SnoopDoggyDoggDoggystyle.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 272,
+        "fields": {
+            "album": 16,
+            "title": "Bathtub",
+            "duration": "1:50"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 273,
+        "fields": {
+            "album": 16,
+            "title": "G Funk Intro",
+            "duration": "2:24"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 274,
+        "fields": {
+            "album": 16,
+            "title": "Gin and Juice",
+            "duration": "3:31"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 275,
+        "fields": {
+            "album": 16,
+            "title": "W Balls",
+            "duration": "0:37"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 276,
+        "fields": {
+            "album": 16,
+            "title": "Tha Shiznit",
+            "duration": "4:02"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 277,
+        "fields": {
+            "album": 16,
+            "title": "Lodi Dodi",
+            "duration": "4:24"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 278,
+        "fields": {
+            "album": 16,
+            "title": "Murder Was the Case",
+            "duration": "3:39"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 279,
+        "fields": {
+            "album": 16,
+            "title": "Serial Killa",
+            "duration": "3:35"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 280,
+        "fields": {
+            "album": 16,
+            "title": "Who Am I? (What's My Name?)",
+            "duration": "4:06"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 281,
+        "fields": {
+            "album": 16,
+            "title": "For All My Niggaz & Bitches",
+            "duration": "4:43"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 282,
+        "fields": {
+            "album": 16,
+            "title": "Ain't No Fun (If the Homies Can't Have None)",
+            "duration": "4:07"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 283,
+        "fields": {
+            "album": 16,
+            "title": "Chronic Relief Intro",
+            "duration": "1:13"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 284,
+        "fields": {
+            "album": 16,
+            "title": "Doggy Dogg World",
+            "duration": "5:38"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 285,
+        "fields": {
+            "album": 16,
+            "title": "Betta Ask Somebody",
+            "duration": "3:57"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 286,
+        "fields": {
+            "album": 16,
+            "title": "Gz and Hustlas",
+            "duration": "3:51"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 287,
+        "fields": {
+            "album": 16,
+            "title": "U Betta Recognize",
+            "duration": "3:59"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 288,
+        "fields": {
+            "album": 16,
+            "title": "Gz Up, Hoes Down",
+            "duration": "2:22"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 289,
+        "fields": {
+            "album": 16,
+            "title": "Pump Pump",
+            "duration": "3:42"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 17,
+        "fields": {
+            "title": "Tha Last Meal",
+            "artist": "Snoop Dogg",
+            "release_year": 2000,
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/d/dc/The_Last_Meal_-_Front.jpeg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 290,
+        "fields": {
+            "album": 17,
+            "title": "Intro",
+            "duration": "1:20"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 291,
+        "fields": {
+            "album": 17,
+            "title": "Hennesey n Buddah",
+            "duration": "4:10"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 292,
+        "fields": {
+            "album": 17,
+            "title": "Snoop Dogg (What's My Name Pt. 2)",
+            "duration": "4:03"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 293,
+        "fields": {
+            "album": 17,
+            "title": "True Lies",
+            "duration": "4:10"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 294,
+        "fields": {
+            "album": 17,
+            "title": "Wrong Idea",
+            "duration": "4:20"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 295,
+        "fields": {
+            "album": 17,
+            "title": "Stacey Adams",
+            "duration": "3:08"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 296,
+        "fields": {
+            "album": 17,
+            "title": "Lay Low",
+            "duration": "4:46"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 297,
+        "fields": {
+            "album": 17,
+            "title": "Bring It On",
+            "duration": "4:16"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 298,
+        "fields": {
+            "album": 17,
+            "title": "Game Court",
+            "duration": "1:00"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 299,
+        "fields": {
+            "album": 17,
+            "title": "Issues",
+            "duration": "3:45"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 300,
+        "fields": {
+            "album": 17,
+            "title": "Brake Fluid (Biiitch Pump Yo Brakes)",
+            "duration": "4:03"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 301,
+        "fields": {
+            "album": 17,
+            "title": "Ready 2 Ride",
+            "duration": "4:16"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 302,
+        "fields": {
+            "album": 17,
+            "title": "Loosen' Control",
+            "duration": "4:03"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 303,
+        "fields": {
+            "album": 17,
+            "title": "I Can't Swim",
+            "duration": "1:31"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 304,
+        "fields": {
+            "album": 17,
+            "title": "Leave Me Alone",
+            "duration": "4:05"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 305,
+        "fields": {
+            "album": 17,
+            "title": "Back Up Off Me",
+            "duration": "3:50"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 306,
+        "fields": {
+            "album": 17,
+            "title": "Y'all Gone Miss Me",
+            "duration": "4:00"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 18,
+        "fields": {
+            "title": "R&G (Rhythm & Gangsta): The Masterpiece",
+            "artist": "Snoop Dogg",
+            "release_year": 2004,
+            "cover_image": "https://m.media-amazon.com/images/I/71AVp7KfkmL.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 307,
+        "fields": {
+            "album": 18,
+            "title": "Intro",
+            "duration": "1:21"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 308,
+        "fields": {
+            "album": 18,
+            "title": "Bang Out",
+            "duration": "3:05"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 309,
+        "fields": {
+            "album": 18,
+            "title": "Drop It Like It's Hot",
+            "duration": "4:26"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 310,
+        "fields": {
+            "album": 18,
+            "title": "Can I Get a Flicc Witchu",
+            "duration": "4:09"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 311,
+        "fields": {
+            "album": 18,
+            "title": "Ups & Downs",
+            "duration": "4:04"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 312,
+        "fields": {
+            "album": 18,
+            "title": "The Bidness",
+            "duration": "3:23"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 313,
+        "fields": {
+            "album": 18,
+            "title": "Snoop D.O. Double G",
+            "duration": "3:46"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 314,
+        "fields": {
+            "album": 18,
+            "title": "Let's Get Blown",
+            "duration": "4:40"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 315,
+        "fields": {
+            "album": 18,
+            "title": "Step Yo Game Up",
+            "duration": "4:33"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 316,
+        "fields": {
+            "album": 18,
+            "title": "Perfect",
+            "duration": "4:33"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 317,
+        "fields": {
+            "album": 18,
+            "title": "WBALLZ (Interlude)",
+            "duration": "0:53"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 318,
+        "fields": {
+            "album": 18,
+            "title": "I Love Tha Way You Move",
+            "duration": "4:13"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 319,
+        "fields": {
+            "album": 18,
+            "title": "Girl Like U",
+            "duration": "4:36"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 320,
+        "fields": {
+            "album": 18,
+            "title": "Promise I",
+            "duration": "3:56"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 321,
+        "fields": {
+            "album": 18,
+            "title": "Oh No",
+            "duration": "3:42"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 322,
+        "fields": {
+            "album": 18,
+            "title": "Can U Control Yo Hoe",
+            "duration": "3:44"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 323,
+        "fields": {
+            "album": 18,
+            "title": "Signs",
+            "duration": "3:56"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 324,
+        "fields": {
+            "album": 18,
+            "title": "I'm Threw Witchu",
+            "duration": "4:17"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 325,
+        "fields": {
+            "album": 18,
+            "title": "Pass It Pass It",
+            "duration": "4:22"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 326,
+        "fields": {
+            "album": 18,
+            "title": "No Thang On Me",
+            "duration": "4:00"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 19,
+        "fields": {
+            "title": "Tha Blue Carpet Treatment",
+            "artist": "Snoop Dogg",
+            "release_year": 2006,
+            "cover_image": "https://m.media-amazon.com/images/I/81mEiOw8yTL.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 327,
+        "fields": {
+            "album": 19,
+            "title": "Intrology",
+            "duration": "2:11"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 328,
+        "fields": {
+            "album": 19,
+            "title": "Think About It",
+            "duration": "3:37"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 329,
+        "fields": {
+            "album": 19,
+            "title": "Crazy",
+            "duration": "4:26"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 330,
+        "fields": {
+            "album": 19,
+            "title": "Vato",
+            "duration": "4:44"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 331,
+        "fields": {
+            "album": 19,
+            "title": "That's That Shit",
+            "duration": "4:17"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 332,
+        "fields": {
+            "album": 19,
+            "title": "Candy (Drippin' Like Water)",
+            "duration": "4:48"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 333,
+        "fields": {
+            "album": 19,
+            "title": "Boss' Life",
+            "duration": "3:22"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 334,
+        "fields": {
+            "album": 19,
+            "title": "LAX",
+            "duration": "3:21"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 335,
+        "fields": {
+            "album": 19,
+            "title": "10 Lil' Crips",
+            "duration": "3:15"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 336,
+        "fields": {
+            "album": 19,
+            "title": "Round Here",
+            "duration": "3:42"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 337,
+        "fields": {
+            "album": 19,
+            "title": "A Bitch I Knew",
+            "duration": "4:32"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 338,
+        "fields": {
+            "album": 19,
+            "title": "Like This",
+            "duration": "3:56"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 339,
+        "fields": {
+            "album": 19,
+            "title": "Which One of You",
+            "duration": "3:32"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 340,
+        "fields": {
+            "album": 19,
+            "title": "I Wanna Love You",
+            "duration": "4:07"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 341,
+        "fields": {
+            "album": 19,
+            "title": "Psst!",
+            "duration": "2:59"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 342,
+        "fields": {
+            "album": 19,
+            "title": "Beat Up on Yo Pads",
+            "duration": "2:57"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 343,
+        "fields": {
+            "album": 19,
+            "title": "Don't Stop",
+            "duration": "3:22"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 344,
+        "fields": {
+            "album": 19,
+            "title": "Imagine",
+            "duration": "3:42"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 345,
+        "fields": {
+            "album": 19,
+            "title": "Conversations",
+            "duration": "3:38"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 20,
+        "fields": {
+            "title": "Illmatic",
+            "artist": "Nas",
+            "release_year": 1994,
+            "cover_image": "https://ecsmedia.pl/c/illmatic-b-iext148215433.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 346,
+        "fields": {
+            "album": 20,
+            "title": "The Genesis",
+            "duration": "1:45"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 347,
+        "fields": {
+            "album": 20,
+            "title": "N.Y. State of Mind",
+            "duration": "4:54"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 348,
+        "fields": {
+            "album": 20,
+            "title": "Life's a Bitch",
+            "duration": "3:30"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 349,
+        "fields": {
+            "album": 20,
+            "title": "The World Is Yours",
+            "duration": "4:50"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 350,
+        "fields": {
+            "album": 20,
+            "title": "Halftime",
+            "duration": "4:20"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 351,
+        "fields": {
+            "album": 20,
+            "title": "Memory Lane (Sittin' in da Park)",
+            "duration": "4:08"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 352,
+        "fields": {
+            "album": 20,
+            "title": "One Love",
+            "duration": "5:25"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 353,
+        "fields": {
+            "album": 20,
+            "title": "One Time 4 Your Mind",
+            "duration": "3:18"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 354,
+        "fields": {
+            "album": 20,
+            "title": "Represent",
+            "duration": "4:12"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 355,
+        "fields": {
+            "album": 20,
+            "title": "It Ain't Hard to Tell",
+            "duration": "3:22"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 21,
+        "fields": {
+            "title": "It Was Written",
+            "artist": "Nas",
+            "release_year": 1996,
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/c/cc/Nas-it-was-written-music-album.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 356,
+        "fields": {
+            "album": 21,
+            "title": "Album Intro",
+            "duration": "1:52"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 357,
+        "fields": {
+            "album": 21,
+            "title": "The Message",
+            "duration": "3:54"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 358,
+        "fields": {
+            "album": 21,
+            "title": "Street Dreams",
+            "duration": "4:39"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 359,
+        "fields": {
+            "album": 21,
+            "title": "I Gave You Power",
+            "duration": "3:52"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 360,
+        "fields": {
+            "album": 21,
+            "title": "Watch Dem Niggas",
+            "duration": "4:04"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 361,
+        "fields": {
+            "album": 21,
+            "title": "Take It in Blood",
+            "duration": "4:48"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 362,
+        "fields": {
+            "album": 21,
+            "title": "Nas Is Coming",
+            "duration": "4:41"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 363,
+        "fields": {
+            "album": 21,
+            "title": "Affirmative Action",
+            "duration": "4:19"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 364,
+        "fields": {
+            "album": 21,
+            "title": "The Set Up",
+            "duration": "4:01"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 365,
+        "fields": {
+            "album": 21,
+            "title": "Black Girl Lost",
+            "duration": "4:23"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 366,
+        "fields": {
+            "album": 21,
+            "title": "Suspect",
+            "duration": "4:12"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 367,
+        "fields": {
+            "album": 21,
+            "title": "Shootouts",
+            "duration": "3:46"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 368,
+        "fields": {
+            "album": 21,
+            "title": "Live Nigga Rap",
+            "duration": "3:45"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 369,
+        "fields": {
+            "album": 21,
+            "title": "If I Ruled the World (Imagine That)",
+            "duration": "4:42"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 22,
+        "fields": {
+            "title": "I Am...",
+            "artist": "Nas",
+            "release_year": 1999,
+            "cover_image": "https://ecsmedia.pl/c/i-am-b-iext149341467.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 370,
+        "fields": {
+            "album": 22,
+            "title": "Fetus (Belly Button Window)",
+            "duration": "4:50"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 371,
+        "fields": {
+            "album": 22,
+            "title": "N.Y. State of Mind Pt. II",
+            "duration": "4:53"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 372,
+        "fields": {
+            "album": 22,
+            "title": "Hate Me Now",
+            "duration": "4:44"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 373,
+        "fields": {
+            "album": 22,
+            "title": "Small World",
+            "duration": "4:29"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 374,
+        "fields": {
+            "album": 22,
+            "title": "Favor for a Favor",
+            "duration": "4:07"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 375,
+        "fields": {
+            "album": 22,
+            "title": "We Will Survive",
+            "duration": "4:09"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 376,
+        "fields": {
+            "album": 22,
+            "title": "Ghetto Prisoners",
+            "duration": "4:42"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 377,
+        "fields": {
+            "album": 22,
+            "title": "You Won't See Me Tonight",
+            "duration": "4:23"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 378,
+        "fields": {
+            "album": 22,
+            "title": "I Want to Talk to You",
+            "duration": "4:28"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 379,
+        "fields": {
+            "album": 22,
+            "title": "Dr. Knockboot",
+            "duration": "3:58"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 380,
+        "fields": {
+            "album": 22,
+            "title": "Life Is What You Make It",
+            "duration": "3:45"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 381,
+        "fields": {
+            "album": 22,
+            "title": "Big Things",
+            "duration": "3:42"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 382,
+        "fields": {
+            "album": 22,
+            "title": "Nas Is Like",
+            "duration": "3:57"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 383,
+        "fields": {
+            "album": 22,
+            "title": "K-I-SS-I-N-G",
+            "duration": "4:15"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 384,
+        "fields": {
+            "album": 22,
+            "title": "Money Is My Bitch",
+            "duration": "4:44"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 385,
+        "fields": {
+            "album": 22,
+            "title": "Undying Love",
+            "duration": "5:13"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 23,
+        "fields": {
+            "title": "good kid, m.A.A.d city",
+            "artist": "Kendrick Lamar",
+            "release_year": 2012,
+            "cover_image": "https://m.media-amazon.com/images/I/71tsUaTfQIL.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 386,
+        "fields": {
+            "album": 23,
+            "title": "Sherane a.k.a Master Splinter’s Daughter",
+            "duration": "4:33"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 387,
+        "fields": {
+            "album": 23,
+            "title": "Bitch, Don’t Kill My Vibe",
+            "duration": "5:10"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 388,
+        "fields": {
+            "album": 23,
+            "title": "Backseat Freestyle",
+            "duration": "3:32"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 389,
+        "fields": {
+            "album": 23,
+            "title": "The Art of Peer Pressure",
+            "duration": "5:24"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 390,
+        "fields": {
+            "album": 23,
+            "title": "Money Trees",
+            "duration": "6:26"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 391,
+        "fields": {
+            "album": 23,
+            "title": "Poetic Justice",
+            "duration": "5:00"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 392,
+        "fields": {
+            "album": 23,
+            "title": "good kid",
+            "duration": "3:34"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 393,
+        "fields": {
+            "album": 23,
+            "title": "m.A.A.d city",
+            "duration": "5:50"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 394,
+        "fields": {
+            "album": 23,
+            "title": "Swimming Pools (Drank)",
+            "duration": "5:13"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 395,
+        "fields": {
+            "album": 23,
+            "title": "Sing About Me, I’m Dying of Thirst",
+            "duration": "12:03"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 396,
+        "fields": {
+            "album": 23,
+            "title": "Real",
+            "duration": "7:23"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 397,
+        "fields": {
+            "album": 23,
+            "title": "Compton",
+            "duration": "4:08"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 24,
+        "fields": {
+            "title": "To Pimp a Butterfly",
+            "artist": "Kendrick Lamar",
+            "release_year": 2015,
+            "cover_image": "https://ecsmedia.pl/c/to-pimp-a-butterfly-b-iext163048717.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 398,
+        "fields": {
+            "album": 24,
+            "title": "Wesley's Theory",
+            "duration": "4:47"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 399,
+        "fields": {
+            "album": 24,
+            "title": "For Free? (Interlude)",
+            "duration": "2:10"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 400,
+        "fields": {
+            "album": 24,
+            "title": "King Kunta",
+            "duration": "3:54"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 401,
+        "fields": {
+            "album": 24,
+            "title": "Institutionalized",
+            "duration": "4:31"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 402,
+        "fields": {
+            "album": 24,
+            "title": "These Walls",
+            "duration": "5:00"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 403,
+        "fields": {
+            "album": 24,
+            "title": "u",
+            "duration": "4:28"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 404,
+        "fields": {
+            "album": 24,
+            "title": "Alright",
+            "duration": "3:39"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 405,
+        "fields": {
+            "album": 24,
+            "title": "For Sale? (Interlude)",
+            "duration": "4:51"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 406,
+        "fields": {
+            "album": 24,
+            "title": "Momma",
+            "duration": "4:43"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 407,
+        "fields": {
+            "album": 24,
+            "title": "Hood Politics",
+            "duration": "4:52"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 408,
+        "fields": {
+            "album": 24,
+            "title": "How Much a Dollar Cost",
+            "duration": "4:21"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 409,
+        "fields": {
+            "album": 24,
+            "title": "Complexion (A Zulu Love)",
+            "duration": "4:23"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 410,
+        "fields": {
+            "album": 24,
+            "title": "The Blacker the Berry",
+            "duration": "5:28"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 411,
+        "fields": {
+            "album": 24,
+            "title": "You Ain't Gotta Lie (Momma Said)",
+            "duration": "4:01"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 412,
+        "fields": {
+            "album": 24,
+            "title": "i",
+            "duration": "5:36"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 413,
+        "fields": {
+            "album": 24,
+            "title": "Mortal Man",
+            "duration": "12:07"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 25,
+        "fields": {
+            "title": "DAMN.",
+            "artist": "Kendrick Lamar",
+            "release_year": 2017,
+            "cover_image": "https://m.media-amazon.com/images/I/71tdaojeUkL._UF894,1000_QL80_.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 414,
+        "fields": {
+            "album": 25,
+            "title": "BLOOD.",
+            "duration": "1:58"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 415,
+        "fields": {
+            "album": 25,
+            "title": "DNA.",
+            "duration": "3:05"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 416,
+        "fields": {
+            "album": 25,
+            "title": "YAH.",
+            "duration": "2:40"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 417,
+        "fields": {
+            "album": 25,
+            "title": "ELEMENT.",
+            "duration": "3:28"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 418,
+        "fields": {
+            "album": 25,
+            "title": "FEEL.",
+            "duration": "3:34"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 419,
+        "fields": {
+            "album": 25,
+            "title": "LOYALTY.",
+            "duration": "3:47"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 420,
+        "fields": {
+            "album": 25,
+            "title": "PRIDE.",
+            "duration": "4:35"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 421,
+        "fields": {
+            "album": 25,
+            "title": "HUMBLE.",
+            "duration": "2:57"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 422,
+        "fields": {
+            "album": 25,
+            "title": "LUST.",
+            "duration": "5:07"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 423,
+        "fields": {
+            "album": 25,
+            "title": "LOVE.",
+            "duration": "3:33"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 424,
+        "fields": {
+            "album": 25,
+            "title": "XXX.",
+            "duration": "4:14"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 425,
+        "fields": {
+            "album": 25,
+            "title": "FEAR.",
+            "duration": "7:40"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 426,
+        "fields": {
+            "album": 25,
+            "title": "GOD.",
+            "duration": "4:08"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 427,
+        "fields": {
+            "album": 25,
+            "title": "DUCKWORTH.",
+            "duration": "4:08"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 26,
+        "fields": {
+            "title": "Straight Outta Compton",
+            "artist": "N.W.A",
+            "release_year": 1988,
+            "cover_image": "https://m.media-amazon.com/images/I/914gSg0S0OL.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 428,
+        "fields": {
+            "album": 26,
+            "title": "Straight Outta Compton",
+            "duration": "4:18"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 429,
+        "fields": {
+            "album": 26,
+            "title": "Fuck tha Police",
+            "duration": "5:45"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 430,
+        "fields": {
+            "album": 26,
+            "title": "Gangsta Gangsta",
+            "duration": "5:36"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 431,
+        "fields": {
+            "album": 26,
+            "title": "If It Ain't Ruff",
+            "duration": "3:34"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 432,
+        "fields": {
+            "album": 26,
+            "title": "Parental Discretion Iz Advised",
+            "duration": "5:15"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 433,
+        "fields": {
+            "album": 26,
+            "title": "8 Ball (Remix)",
+            "duration": "4:52"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 434,
+        "fields": {
+            "album": 26,
+            "title": "Something Like That",
+            "duration": "3:35"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 435,
+        "fields": {
+            "album": 26,
+            "title": "Express Yourself",
+            "duration": "4:25"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 436,
+        "fields": {
+            "album": 26,
+            "title": "Compton's N the House (Remix)",
+            "duration": "5:20"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 437,
+        "fields": {
+            "album": 26,
+            "title": "I Ain't tha 1",
+            "duration": "4:54"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 438,
+        "fields": {
+            "album": 26,
+            "title": "Dopeman (Remix)",
+            "duration": "5:20"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 439,
+        "fields": {
+            "album": 26,
+            "title": "Quiet on tha Set",
+            "duration": "3:59"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 440,
+        "fields": {
+            "album": 26,
+            "title": "Something 2 Dance 2",
+            "duration": "3:22"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 27,
+        "fields": {
+            "title": "Graduation",
+            "artist": "Kanye West",
+            "release_year": 2007,
+            "cover_image": "https://m.media-amazon.com/images/I/61Jr-rvLUDL.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 441,
+        "fields": {
+            "album": 27,
+            "title": "Good Morning",
+            "duration": "3:15"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 442,
+        "fields": {
+            "album": 27,
+            "title": "Champion",
+            "duration": "2:47"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 443,
+        "fields": {
+            "album": 27,
+            "title": "Stronger",
+            "duration": "5:12"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 444,
+        "fields": {
+            "album": 27,
+            "title": "I Wonder",
+            "duration": "4:03"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 445,
+        "fields": {
+            "album": 27,
+            "title": "Good Life",
+            "duration": "3:27"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 446,
+        "fields": {
+            "album": 27,
+            "title": "Can't Tell Me Nothing",
+            "duration": "4:31"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 447,
+        "fields": {
+            "album": 27,
+            "title": "Barry Bonds",
+            "duration": "3:24"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 448,
+        "fields": {
+            "album": 27,
+            "title": "Drunk and Hot Girls",
+            "duration": "5:13"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 449,
+        "fields": {
+            "album": 27,
+            "title": "Flashing Lights",
+            "duration": "3:57"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 450,
+        "fields": {
+            "album": 27,
+            "title": "Everything I Am",
+            "duration": "3:47"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 451,
+        "fields": {
+            "album": 27,
+            "title": "The Glory",
+            "duration": "3:32"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 452,
+        "fields": {
+            "album": 27,
+            "title": "Homecoming",
+            "duration": "3:23"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 453,
+        "fields": {
+            "album": 27,
+            "title": "Big Brother",
+            "duration": "4:47"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 28,
+        "fields": {
+            "title": "Stankonia",
+            "artist": "OutKast",
+            "release_year": 2000,
+            "cover_image": "https://ecsmedia.pl/c/stankonia-b-iext122763835.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 454,
+        "fields": {
+            "album": 28,
+            "title": "Intro",
+            "duration": "1:09"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 455,
+        "fields": {
+            "album": 28,
+            "title": "Gasoline Dreams",
+            "duration": "3:34"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 456,
+        "fields": {
+            "album": 28,
+            "title": "I'm Cool (Interlude)",
+            "duration": "0:42"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 457,
+        "fields": {
+            "album": 28,
+            "title": "So Fresh, So Clean",
+            "duration": "4:00"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 458,
+        "fields": {
+            "album": 28,
+            "title": "Ms. Jackson",
+            "duration": "4:30"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 459,
+        "fields": {
+            "album": 28,
+            "title": "Snappin' & Trappin'",
+            "duration": "4:19"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 460,
+        "fields": {
+            "album": 28,
+            "title": "D.F. (Interlude)",
+            "duration": "0:27"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 461,
+        "fields": {
+            "album": 28,
+            "title": "Spaghetti Junction",
+            "duration": "3:57"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 462,
+        "fields": {
+            "album": 28,
+            "title": "Kim & Cookie (Interlude)",
+            "duration": "1:12"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 463,
+        "fields": {
+            "album": 28,
+            "title": "I'll Call B4 I Cum",
+            "duration": "3:18"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 464,
+        "fields": {
+            "album": 28,
+            "title": "B.O.B.",
+            "duration": "5:04"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 465,
+        "fields": {
+            "album": 28,
+            "title": "Xplosion",
+            "duration": "4:08"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 466,
+        "fields": {
+            "album": 28,
+            "title": "Good Hair (Interlude)",
+            "duration": "0:14"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 467,
+        "fields": {
+            "album": 28,
+            "title": "We Luv Deez Hoez",
+            "duration": "4:10"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 468,
+        "fields": {
+            "album": 28,
+            "title": "Humble Mumble",
+            "duration": "4:50"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 469,
+        "fields": {
+            "album": 28,
+            "title": "Drinkin' Again (Interlude)",
+            "duration": "0:24"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 470,
+        "fields": {
+            "album": 28,
+            "title": "?",
+            "duration": "1:28"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 471,
+        "fields": {
+            "album": 28,
+            "title": "Red Velvet",
+            "duration": "3:52"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 472,
+        "fields": {
+            "album": 28,
+            "title": "Cruisin' in the ATL (Interlude)",
+            "duration": "0:19"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 473,
+        "fields": {
+            "album": 28,
+            "title": "Gangsta Shit",
+            "duration": "4:41"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 474,
+        "fields": {
+            "album": 28,
+            "title": "Toilet Tisha",
+            "duration": "4:24"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 475,
+        "fields": {
+            "album": 28,
+            "title": "Slum Beautiful",
+            "duration": "4:07"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 476,
+        "fields": {
+            "album": 28,
+            "title": "Pre-Nump (Interlude)",
+            "duration": "0:27"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 477,
+        "fields": {
+            "album": 28,
+            "title": "Stankonia (Stanklove)",
+            "duration": "6:51"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 29,
+        "fields": {
+            "title": "Aquemini",
+            "artist": "OutKast",
+            "release_year": 1998,
+            "cover_image": "https://m.media-amazon.com/images/I/815BM+mybsL.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 478,
+        "fields": {
+            "album": 29,
+            "title": "Hold On, Be Strong",
+            "duration": "1:11"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 479,
+        "fields": {
+            "album": 29,
+            "title": "Return of the 'G'",
+            "duration": "4:49"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 480,
+        "fields": {
+            "album": 29,
+            "title": "Rosa Parks",
+            "duration": "5:24"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 481,
+        "fields": {
+            "album": 29,
+            "title": "Skew It on the Bar-B",
+            "duration": "3:15"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 482,
+        "fields": {
+            "album": 29,
+            "title": "Aquemini",
+            "duration": "5:19"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 483,
+        "fields": {
+            "album": 29,
+            "title": "Synthesizer",
+            "duration": "5:11"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 484,
+        "fields": {
+            "album": 29,
+            "title": "Slump",
+            "duration": "5:09"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 485,
+        "fields": {
+            "album": 29,
+            "title": "West Savannah",
+            "duration": "4:03"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 486,
+        "fields": {
+            "album": 29,
+            "title": "Da Art of Storytellin' (Pt. 1)",
+            "duration": "3:43"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 487,
+        "fields": {
+            "album": 29,
+            "title": "Da Art of Storytellin' (Pt. 2)",
+            "duration": "2:48"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 488,
+        "fields": {
+            "album": 29,
+            "title": "Mamacita",
+            "duration": "5:52"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 489,
+        "fields": {
+            "album": 29,
+            "title": "SpottieOttieDopaliscious",
+            "duration": "7:07"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 490,
+        "fields": {
+            "album": 29,
+            "title": "Y'all Scared",
+            "duration": "4:50"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 491,
+        "fields": {
+            "album": 29,
+            "title": "Nathaniel",
+            "duration": "1:10"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 492,
+        "fields": {
+            "album": 29,
+            "title": "Liberation",
+            "duration": "8:46"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 493,
+        "fields": {
+            "album": 29,
+            "title": "Chonkyfire",
+            "duration": "6:10"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 30,
+        "fields": {
+            "title": "The Black Album",
+            "artist": "Jay-Z",
+            "release_year": 2003,
+            "cover_image": "https://m.media-amazon.com/images/I/61hpb0sv3jL.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 494,
+        "fields": {
+            "album": 30,
+            "title": "Interlude",
+            "duration": "0:48"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 495,
+        "fields": {
+            "album": 30,
+            "title": "December 4th",
+            "duration": "4:33"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 496,
+        "fields": {
+            "album": 30,
+            "title": "What More Can I Say",
+            "duration": "4:55"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 497,
+        "fields": {
+            "album": 30,
+            "title": "Encore",
+            "duration": "4:10"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 498,
+        "fields": {
+            "album": 30,
+            "title": "Change Clothes",
+            "duration": "4:18"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 499,
+        "fields": {
+            "album": 30,
+            "title": "Dirt Off Your Shoulder",
+            "duration": "4:05"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 500,
+        "fields": {
+            "album": 30,
+            "title": "Threat",
+            "duration": "4:06"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 501,
+        "fields": {
+            "album": 30,
+            "title": "Moment of Clarity",
+            "duration": "4:24"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 502,
+        "fields": {
+            "album": 30,
+            "title": "99 Problems",
+            "duration": "3:54"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 503,
+        "fields": {
+            "album": 30,
+            "title": "Public Service Announcement (Interlude)",
+            "duration": "2:53"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 504,
+        "fields": {
+            "album": 30,
+            "title": "Justify My Thug",
+            "duration": "4:04"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 505,
+        "fields": {
+            "album": 30,
+            "title": "Lucifer",
+            "duration": "3:12"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 506,
+        "fields": {
+            "album": 30,
+            "title": "Allure",
+            "duration": "4:52"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 507,
+        "fields": {
+            "album": 30,
+            "title": "My 1st Song",
+            "duration": "4:45"
         }
     }
 ]

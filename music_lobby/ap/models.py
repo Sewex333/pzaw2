@@ -10,6 +10,19 @@ class Album(models.Model):
 
     def __str__(self):
         return f"{self.title} by {self.artist}"
+    
+    def average_rating(self):
+        ratings = self.rating_set.all()
+        if ratings:
+            return sum(r.rating for r in ratings) / len(ratings)
+        return None
+
+    def total_ratings(self):
+        return self.rating_set.count()
+
+    def total_comments(self):
+        return self.comment_set.count()
+    
 
 class Track(models.Model):
     album = models.ForeignKey(Album, on_delete=models.CASCADE, related_name='tracks')
@@ -36,3 +49,12 @@ class Comment(models.Model):
 
     def __str__(self):
         return f"{self.user.username} skomentował {self.album.title}"
+    
+
+class Favorite(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    album = models.ForeignKey(Album, on_delete=models.CASCADE)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"{self.user.username} - {self.album.title}"

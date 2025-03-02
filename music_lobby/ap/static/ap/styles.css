@@ -159,10 +159,10 @@ header {
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    max-width: 300px; /* Węższa szerokość */
+    max-width: 300px; 
     margin-left: auto;
     margin-right: auto;
-    text-align: center; /* Wyśrodkuj zawartość */
+    text-align: center; 
 }
 
 .rating-section h3 {
@@ -175,23 +175,23 @@ header {
     padding: 5px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    width: 60px; /* Węższe pole wyboru */
+    width: 60px; 
     margin-bottom: 10px;
     text-align: center;
 }
 
 .rating-button {
-    padding: 8px 20px; /* Większy padding poziomy (dłuższy przycisk) */
+    padding: 8px 20px; 
     background-color: #007BFF;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: auto; /* Usunięcie pełnej szerokości */
-    display: inline-block; /* Przycisk dopasowany do zawartości */
+    width: auto; 
+    display: inline-block;
     margin-bottom: 10px;
-    font-size: 0.9em; /* Mniejsza czcionka */
-    min-width: 80px; /* Minimalna szerokość przycisku */
+    font-size: 0.9em;
+    min-width: 80px; 
 }
 
 .rating-button:hover {
@@ -203,7 +203,42 @@ header {
     color: #555;
 }
 
-/* Sekcja komentarzy */
+.favorite-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.favorite-button:hover {
+    background-color: #0056b3;
+}
+
+.remove-favorite-form {
+    margin-top: 10px;
+}
+
+.remove-favorite-button {
+    padding: 5px 10px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.2s;
+}
+
+.remove-favorite-button:hover {
+    background-color: #cc0000;
+}
+
 /* Sekcja komentarzy */
 .comments-section {
     margin-top: 20px;
@@ -211,7 +246,7 @@ header {
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    max-width: 100%; /* Dopasuj do kontenera */
+    max-width: 100%; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -223,7 +258,7 @@ header {
 }
 
 .comment-form textarea {
-    width: calc(100% - 20px); /* Dopasuj do kontenera z marginesem */
+    width: calc(100% - 20px); 
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -239,10 +274,10 @@ header {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: auto; /* Dopasuj do zawartości */
+    width: auto; 
     display: inline-block;
     font-size: 0.9em;
-    min-width: 120px; /* Minimalna szerokość przycisku */
+    min-width: 120px; 
 }
 
 .comment-button:hover {
@@ -279,7 +314,11 @@ header {
     font-size: 0.9em;
     color: #333;
 }
-/* Logowanie i rejestracja */
+/* Style dla formularza  */
+
+.helptext, .errorlist {
+    display: none;
+}
 .auth-container {
     max-width: 400px;
     margin: 50px auto;
@@ -290,16 +329,54 @@ header {
     text-align: center;
 }
 
+
 .auth-form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 
-.auth-form input {
-    padding: 8px;
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    font-size: 1em;
+    box-sizing: border-box; 
+}
+
+
+.error-message {
+    color: #ff4d4d;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+.auth-button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%; 
+    margin-top: 10px; 
+}
+
+.auth-button:hover {
+    background-color: #0056b3;
 }
 
 .auth-container a {
@@ -309,4 +386,145 @@ header {
 
 .auth-container a:hover {
     text-decoration: underline;
+}
+
+/* Stylowanie panelu użytkownika */
+.user-profile {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-profile h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.user-profile h2 {
+    color: #007BFF;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Sekcja statystyk */
+.stats-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.stat-number {
+    font-size: 2em;
+    font-weight: bold;
+    color: #007BFF;
+    display: block;
+}
+
+.stat-label {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Sekcja ulubionych albumów */
+.favorites-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.album-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.album-card img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.album-card .album-info {
+    margin-top: 10px;
+}
+
+.album-card .album-info strong {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.album-card .album-info .artist {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.album-card .album-info .year {
+    color: #999;
+    font-size: 0.8em;
+}
+
+.no-favorites {
+    text-align: center;
+    color: #555;
+    font-size: 0.9em;
+}
+
+/* Przycisk powrotu */
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.back-link:hover {
+    background-color: #0056b3;
 }

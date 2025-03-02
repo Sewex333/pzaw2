@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profil użytkownika</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'ap/styles.css' %}">
+</head>
+<body>
+    <div class="user-profile">
+        <h1>Profil użytkownika: {{ user.username }}</h1>
+
+        <div class="stats-section">
+            <h2>Statystyki:</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">{{ favorites.count }}</span>
+                    <span class="stat-label">Ulubione albumy</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">{{ ratings.count }}</span>
+                    <span class="stat-label">Wystawione oceny</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">{{ comments.count }}</span>
+                    <span class="stat-label">Dodane komentarze</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="favorites-section">
+            <h2>Ulubione albumy:</h2>
+            {% if favorites %}
+                <div class="album-grid">
+                    {% for favorite in favorites %}
+                        <div class="album-card">
+                            <a href="{% url 'album_detail' favorite.album.id %}">
+                                {% if favorite.album.cover_image %}
+                                    <img src="{{ favorite.album.cover_image }}" alt="Okładka {{ favorite.album.title }}">
+                                {% endif %}
+                                <div class="album-info">
+                                    <strong>{{ favorite.album.title }}</strong>
+                                    <span class="artist">{{ favorite.album.artist }}</span>
+                                    <span class="year">({{ favorite.album.release_year }})</span>
+                                </div>
+                            </a>
+                            <form method="post" action="{% url 'remove_from_favorites' favorite.album.id %}" class="remove-favorite-form">
+                                {% csrf_token %}
+                                <button type="submit" class="remove-favorite-button">Usuń z ulubionych</button>
+                            </form>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <p class="no-favorites">Brak ulubionych albumów.</p>
+            {% endif %}
+        </div>
+        
+        <a href="{% url 'home' %}" class="back-link">Powrót do strony głównej</a>
+    </div>
+</body>
+</html>

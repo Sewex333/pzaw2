@@ -8,7 +8,11 @@
 <body>
     <div class="tracklist-container">
         <h1>{{ album.title }} - {{ album.artist }} ({{ album.release_year }})</h1>
-        <img src="{{ album.cover_image }}" alt="Okładka {{ album.title }}">
+        <div class="album-stats">
+            <p>Średnia ocena: {{ album.average_rating|default:"Brak ocen" }}</p>
+            <p>Liczba ocen: {{ album.total_ratings }}</p>
+            <p>Liczba komentarzy: {{ album.total_comments }}</p>
+        </div>
         <h2>Tracklista:</h2>
         <ul class="track-list">
             {% for track in tracks %}
@@ -32,7 +36,6 @@
                 <button type="submit" class="rating-button">Oceń</button>
             </form>
             <div class="current-rating">
-                Aktualna ocena: {{ album.average_rating|default:"Brak ocen" }}
             </div>
         </div>
         {% else %}
@@ -40,6 +43,7 @@
             <p><a href="{% url 'login' %}">Zaloguj się</a>, aby ocenić ten album.</p>
         </div>
         {% endif %}
+        
 
         <!-- Sekcja komentarzy (tylko dla zalogowanych) -->
         {% if user.is_authenticated %}
@@ -57,6 +61,7 @@
         </div>
         {% endif %}
 
+
         <!-- Wyświetlanie istniejących komentarzy -->
         <div class="comments-section">
             <h3>Komentarze:</h3>
@@ -70,6 +75,19 @@
                 {% endfor %}
             </ul>
         </div>
+
+        {% if user.is_authenticated %}
+
+        <form method="post" action="{% url 'add_to_favorites' album.id %}">
+            {% csrf_token %}
+            <button type="submit" class="favorite-button">Dodaj do ulubionych</button>
+        </form>
+    {% else %}
+        <p><a href="{% url 'login' %}">Zaloguj się</a>, aby dodawać albumy do ulubionych.</p>
+    {% endif %}
+
+
+   
 
         <a href="{% url 'home' %}" class="back-link">Powrót do listy albumów</a>
     </div>

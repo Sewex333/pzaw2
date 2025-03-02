@@ -1,5 +1,5 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from .models import Album, Track, Rating, Comment
+from .models import Album, Track, Rating, Comment, Favorite
 from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 
@@ -90,3 +90,28 @@ def user_login(request):
 def user_logout(request):
     logout(request)
     return redirect('home')
+
+def add_to_favorites(request, album_id):
+    if request.user.is_authenticated:
+        album = get_object_or_404(Album, id=album_id)
+        Favorite.objects.get_or_create(user=request.user, album=album)
+    return redirect('album_detail', album_id=album_id)
+
+def remove_from_favorites(request, album_id):
+    if request.user.is_authenticated:
+        album = get_object_or_404(Album, id=album_id)
+        Favorite.objects.filter(user=request.user, album=album).delete()
+    return redirect('user_profile') 
+
+def user_profile(request):
+    if request.user.is_authenticated:
+        favorites = Favorite.objects.filter(user=request.user)
+        ratings = Rating.objects.filter(user=request.user)
+        comments = Comment.objects.filter(user=request.user)
+        return render(request, 'ap/user_profile.html', {
+            'favorites': favorites,
+            'ratings': ratings,
+            'comments': comments,
+        })
+    return redirect('login')
+
