@@ -1,0 +1,312 @@
+/* Ogólne style */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #444;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Nagłówek */
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.user-actions {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.user-actions a, .user-actions span {
+    color: #fff;
+    font-weight: bold;
+}
+
+.user-actions a:hover {
+    text-decoration: underline;
+}
+
+/* Karty albumów */
+.album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0;
+}
+
+.album-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.album-card img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.album-card .album-info {
+    margin-top: 10px;
+}
+
+.album-card .album-info strong {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.album-card .album-info .artist {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.album-card .album-info .year {
+    color: #999;
+    font-size: 0.8em;
+}
+
+/* Strona szczegółów albumu */
+.tracklist-container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tracklist-container img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.track-list, .comment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.track-list li, .comment-item {
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    color: #333;
+}
+
+.back-link, .rating-button, .comment-button, .auth-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.back-link:hover, .rating-button:hover, .comment-button:hover, .auth-button:hover {
+    background-color: #0056b3;
+}
+
+/* Sekcja oceniania */
+.rating-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px; /* Węższa szerokość */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Wyśrodkuj zawartość */
+}
+
+.rating-section h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #444;
+}
+
+.rating-select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 60px; /* Węższe pole wyboru */
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.rating-button {
+    padding: 8px 20px; /* Większy padding poziomy (dłuższy przycisk) */
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto; /* Usunięcie pełnej szerokości */
+    display: inline-block; /* Przycisk dopasowany do zawartości */
+    margin-bottom: 10px;
+    font-size: 0.9em; /* Mniejsza czcionka */
+    min-width: 80px; /* Minimalna szerokość przycisku */
+}
+
+.rating-button:hover {
+    background-color: #0056b3;
+}
+
+.current-rating {
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Sekcja komentarzy */
+/* Sekcja komentarzy */
+.comments-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 100%; /* Dopasuj do kontenera */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comments-section h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #444;
+}
+
+.comment-form textarea {
+    width: calc(100% - 20px); /* Dopasuj do kontenera z marginesem */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    resize: vertical;
+    font-size: 0.9em;
+}
+
+.comment-button {
+    padding: 8px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto; /* Dopasuj do zawartości */
+    display: inline-block;
+    font-size: 0.9em;
+    min-width: 120px; /* Minimalna szerokość przycisku */
+}
+
+.comment-button:hover {
+    background-color: #0056b3;
+}
+
+.comment-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comment-item {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.comment-item strong {
+    display: block;
+    font-size: 0.9em;
+    color: #007BFF;
+}
+
+.comment-date {
+    font-size: 0.8em;
+    color: #777;
+    margin-top: 5px;
+}
+
+.comment-text {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #333;
+}
+/* Logowanie i rejestracja */
+.auth-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.auth-form input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.auth-container a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.auth-container a:hover {
+    text-decoration: underline;
+}

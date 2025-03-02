@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ album.title }} - Tracklista</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'ap/styles.css' %}">
+</head>
+<body>
+    <div class="tracklist-container">
+        <h1>{{ album.title }} - {{ album.artist }} ({{ album.release_year }})</h1>
+        <img src="{{ album.cover_image }}" alt="Okładka {{ album.title }}">
+        <h2>Tracklista:</h2>
+        <ul class="track-list">
+            {% for track in tracks %}
+                <li>{{ track.title }} ({{ track.duration }})</li>
+            {% endfor %}
+        </ul>
+
+        <!-- Sekcja oceniania (tylko dla zalogowanych) -->
+        {% if user.is_authenticated %}
+        <div class="rating-section">
+            <h3>Oceń ten album:</h3>
+            <form method="post" action="{% url 'rate_album' album.id %}">
+                {% csrf_token %}
+                <select name="rating" class="rating-select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <button type="submit" class="rating-button">Oceń</button>
+            </form>
+            <div class="current-rating">
+                Aktualna ocena: {{ album.average_rating|default:"Brak ocen" }}
+            </div>
+        </div>
+        {% else %}
+        <div class="rating-section">
+            <p><a href="{% url 'login' %}">Zaloguj się</a>, aby ocenić ten album.</p>
+        </div>
+        {% endif %}
+
+        <!-- Sekcja komentarzy (tylko dla zalogowanych) -->
+        {% if user.is_authenticated %}
+        <div class="comments-section">
+            <h3>Komentarze:</h3>
+            <form method="post" action="{% url 'add_comment' album.id %}" class="comment-form">
+                {% csrf_token %}
+                <textarea name="text" placeholder="Dodaj komentarz..." required></textarea>
+                <button type="submit" class="comment-button">Dodaj komentarz</button>
+            </form>
+        </div>
+        {% else %}
+        <div class="comments-section">
+            <p><a href="{% url 'login' %}">Zaloguj się</a>, aby dodać komentarz.</p>
+        </div>
+        {% endif %}
+
+        <!-- Wyświetlanie istniejących komentarzy -->
+        <div class="comments-section">
+            <h3>Komentarze:</h3>
+            <ul class="comment-list">
+                {% for comment in album.comment_set.all %}
+                    <li class="comment-item">
+                        <strong>{{ comment.user.username }}</strong> 
+                        <span class="comment-date">({{ comment.created_at|date:"d.m.Y H:i" }}):</span><br>
+                        <p class="comment-text">{{ comment.text }}</p>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <a href="{% url 'home' %}" class="back-link">Powrót do listy albumów</a>
+    </div>
+</body>
+</html>

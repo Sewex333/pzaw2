@@ -1,0 +1,2591 @@
+[
+    {
+        "model": "ap.album",
+        "pk": 1,
+        "fields": {
+            "title": "The Slim Shady LP",
+            "artist": "Eminem",
+            "release_year": 1999,
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/3/35/Eminem_-_The_Slim_Shady_LP_CD_cover.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 1,
+        "fields": {
+            "album": 1,
+            "title": "Public Service Announcement",
+            "duration": "0:33"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 2,
+        "fields": {
+            "album": 1,
+            "title": "My Name Is",
+            "duration": "4:28"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 3,
+        "fields": {
+            "album": 1,
+            "title": "Guilty Conscience",
+            "duration": "3:19"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 4,
+        "fields": {
+            "album": 1,
+            "title": "Brain Damage",
+            "duration": "3:46"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 5,
+        "fields": {
+            "album": 1,
+            "title": "Paul (Skit)",
+            "duration": "0:15"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 6,
+        "fields": {
+            "album": 1,
+            "title": "If I Had",
+            "duration": "4:05"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 7,
+        "fields": {
+            "album": 1,
+            "title": "97' Bonnie & Clyde",
+            "duration": "5:16"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 8,
+        "fields": {
+            "album": 1,
+            "title": "Role Model",
+            "duration": "3:25"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 9,
+        "fields": {
+            "album": 1,
+            "title": "My Fault",
+            "duration": "4:01"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 10,
+        "fields": {
+            "album": 1,
+            "title": "Cum on Everybody",
+            "duration": "3:39"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 11,
+        "fields": {
+            "album": 1,
+            "title": "Rock Bottom",
+            "duration": "3:34"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 12,
+        "fields": {
+            "album": 1,
+            "title": "Just Don't Give a F***",
+            "duration": "4:02"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 13,
+        "fields": {
+            "album": 1,
+            "title": "Soap (Skit)",
+            "duration": "0:34"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 14,
+        "fields": {
+            "album": 1,
+            "title": "As the World Turns",
+            "duration": "4:25"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 15,
+        "fields": {
+            "album": 1,
+            "title": "I'm Shady",
+            "duration": "3:31"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 16,
+        "fields": {
+            "album": 1,
+            "title": "Bad Meets Evil",
+            "duration": "4:13"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 17,
+        "fields": {
+            "album": 1,
+            "title": "Still Don't Give a F***",
+            "duration": "4:12"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 2,
+        "fields": {
+            "title": "The Marshall Mathers LP",
+            "artist": "Eminem",
+            "release_year": 2000,
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/a/ae/The_Marshall_Mathers_LP.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 18,
+        "fields": {
+            "album": 2,
+            "title": "Public Service Announcement 2000",
+            "duration": "0:33"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 19,
+        "fields": {
+            "album": 2,
+            "title": "Kill You",
+            "duration": "4:24"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 20,
+        "fields": {
+            "album": 2,
+            "title": "Stan",
+            "duration": "6:44"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 21,
+        "fields": {
+            "album": 2,
+            "title": "Paul (Skit)",
+            "duration": "0:15"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 22,
+        "fields": {
+            "album": 2,
+            "title": "Who Knew",
+            "duration": "3:47"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 23,
+        "fields": {
+            "album": 2,
+            "title": "Steve Berman (Skit)",
+            "duration": "0:53"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 24,
+        "fields": {
+            "album": 2,
+            "title": "The Way I Am",
+            "duration": "4:50"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 25,
+        "fields": {
+            "album": 2,
+            "title": "The Real Slim Shady",
+            "duration": "4:44"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 26,
+        "fields": {
+            "album": 2,
+            "title": "Remember Me?",
+            "duration": "3:38"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 27,
+        "fields": {
+            "album": 2,
+            "title": "I'm Back",
+            "duration": "5:10"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 28,
+        "fields": {
+            "album": 2,
+            "title": "Marshall Mathers",
+            "duration": "5:20"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 29,
+        "fields": {
+            "album": 2,
+            "title": "Ken Kaniff (Skit)",
+            "duration": "1:43"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 30,
+        "fields": {
+            "album": 2,
+            "title": "Drug Ballad",
+            "duration": "5:00"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 31,
+        "fields": {
+            "album": 2,
+            "title": "Amityville",
+            "duration": "4:14"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 32,
+        "fields": {
+            "album": 2,
+            "title": "Bitch Please II",
+            "duration": "4:48"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 33,
+        "fields": {
+            "album": 2,
+            "title": "Kim",
+            "duration": "6:17"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 34,
+        "fields": {
+            "album": 2,
+            "title": "Under the Influence",
+            "duration": "5:22"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 35,
+        "fields": {
+            "album": 2,
+            "title": "Criminal",
+            "duration": "5:14"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 3,
+        "fields": {
+            "title": "The Eminem Show",
+            "artist": "Eminem",
+            "release_year": 2002,
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/3/35/The_Eminem_Show.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 36,
+        "fields": {
+            "album": 3,
+            "title": "Curtains Up",
+            "duration": "0:29"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 37,
+        "fields": {
+            "album": 3,
+            "title": "White America",
+            "duration": "5:24"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 38,
+        "fields": {
+            "album": 3,
+            "title": "Business",
+            "duration": "4:11"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 39,
+        "fields": {
+            "album": 3,
+            "title": "Cleanin' Out My Closet",
+            "duration": "4:57"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 40,
+        "fields": {
+            "album": 3,
+            "title": "Square Dance",
+            "duration": "5:23"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 41,
+        "fields": {
+            "album": 3,
+            "title": "The Kiss (Skit)",
+            "duration": "1:15"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 42,
+        "fields": {
+            "album": 3,
+            "title": "Soldier",
+            "duration": "3:46"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 43,
+        "fields": {
+            "album": 3,
+            "title": "Say Goodbye Hollywood",
+            "duration": "4:32"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 44,
+        "fields": {
+            "album": 3,
+            "title": "Drips",
+            "duration": "4:45"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 45,
+        "fields": {
+            "album": 3,
+            "title": "Without Me",
+            "duration": "4:50"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 46,
+        "fields": {
+            "album": 3,
+            "title": "Paul Rosenberg (Skit)",
+            "duration": "0:22"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 47,
+        "fields": {
+            "album": 3,
+            "title": "Sing for the Moment",
+            "duration": "5:39"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 48,
+        "fields": {
+            "album": 3,
+            "title": "Superman",
+            "duration": "5:50"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 49,
+        "fields": {
+            "album": 3,
+            "title": "Hailie's Song",
+            "duration": "5:20"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 50,
+        "fields": {
+            "album": 3,
+            "title": "Steve Berman (Skit)",
+            "duration": "0:33"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 51,
+        "fields": {
+            "album": 3,
+            "title": "When the Music Stops",
+            "duration": "4:29"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 52,
+        "fields": {
+            "album": 3,
+            "title": "Say What You Say",
+            "duration": "5:09"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 53,
+        "fields": {
+            "album": 3,
+            "title": "'Till I Collapse",
+            "duration": "4:57"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 54,
+        "fields": {
+            "album": 3,
+            "title": "My Dad's Gone Crazy",
+            "duration": "4:27"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 55,
+        "fields": {
+            "album": 3,
+            "title": "Curtains Close (Skit)",
+            "duration": "1:01"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 4,
+        "fields": {
+            "title": "Encore",
+            "artist": "Eminem",
+            "release_year": 2004,
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/b/b4/Encore_%28Eminem_album%29_coverart.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 56,
+        "fields": {
+            "album": 4,
+            "title": "Curtains Up (Encore Version)",
+            "duration": "0:47"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 57,
+        "fields": {
+            "album": 4,
+            "title": "Evil Deeds",
+            "duration": "4:20"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 58,
+        "fields": {
+            "album": 4,
+            "title": "Never Enough",
+            "duration": "2:40"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 59,
+        "fields": {
+            "album": 4,
+            "title": "Yellow Brick Road",
+            "duration": "5:46"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 60,
+        "fields": {
+            "album": 4,
+            "title": "Like Toy Soldiers",
+            "duration": "4:56"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 61,
+        "fields": {
+            "album": 4,
+            "title": "Mosh",
+            "duration": "5:17"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 62,
+        "fields": {
+            "album": 4,
+            "title": "Puke",
+            "duration": "4:07"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 63,
+        "fields": {
+            "album": 4,
+            "title": "My 1st Single",
+            "duration": "5:02"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 64,
+        "fields": {
+            "album": 4,
+            "title": "Rain Man",
+            "duration": "5:14"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 65,
+        "fields": {
+            "album": 4,
+            "title": "Big Weenie",
+            "duration": "4:27"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 66,
+        "fields": {
+            "album": 4,
+            "title": "Em Calls Paul (Skit)",
+            "duration": "1:12"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 67,
+        "fields": {
+            "album": 4,
+            "title": "Just Lose It",
+            "duration": "4:08"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 68,
+        "fields": {
+            "album": 4,
+            "title": "Ass Like That",
+            "duration": "4:25"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 69,
+        "fields": {
+            "album": 4,
+            "title": "Spend Some Time",
+            "duration": "5:11"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 70,
+        "fields": {
+            "album": 4,
+            "title": "Mockingbird",
+            "duration": "4:11"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 71,
+        "fields": {
+            "album": 4,
+            "title": "Crazy in Love",
+            "duration": "4:02"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 72,
+        "fields": {
+            "album": 4,
+            "title": "One Shot 2 Shot",
+            "duration": "4:26"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 73,
+        "fields": {
+            "album": 4,
+            "title": "Final Thought (Skit)",
+            "duration": "0:30"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 74,
+        "fields": {
+            "album": 4,
+            "title": "Encore / Curtains Down",
+            "duration": "5:48"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 5,
+        "fields": {
+            "title": "Relapse",
+            "artist": "Eminem",
+            "release_year": 2009,
+            "cover_image": "https://ecsmedia.pl/c/relapse-b-iext133460696.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 75,
+        "fields": {
+            "album": 5,
+            "title": "Dr. West (Skit)",
+            "duration": "1:29"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 76,
+        "fields": {
+            "album": 5,
+            "title": "3 a.m.",
+            "duration": "5:19"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 77,
+        "fields": {
+            "album": 5,
+            "title": "My Mom",
+            "duration": "5:20"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 78,
+        "fields": {
+            "album": 5,
+            "title": "Insane",
+            "duration": "3:01"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 79,
+        "fields": {
+            "album": 5,
+            "title": "Bagpipes from Baghdad",
+            "duration": "4:43"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 80,
+        "fields": {
+            "album": 5,
+            "title": "Hello",
+            "duration": "4:08"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 81,
+        "fields": {
+            "album": 5,
+            "title": "Tonya (Skit)",
+            "duration": "0:42"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 82,
+        "fields": {
+            "album": 5,
+            "title": "Same Song & Dance",
+            "duration": "4:06"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 83,
+        "fields": {
+            "album": 5,
+            "title": "We Made You",
+            "duration": "4:29"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 84,
+        "fields": {
+            "album": 5,
+            "title": "Medicine Ball",
+            "duration": "3:57"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 85,
+        "fields": {
+            "album": 5,
+            "title": "Paul (Skit)",
+            "duration": "0:19"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 86,
+        "fields": {
+            "album": 5,
+            "title": "Stay Wide Awake",
+            "duration": "5:20"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 87,
+        "fields": {
+            "album": 5,
+            "title": "Old Time's Sake",
+            "duration": "4:38"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 88,
+        "fields": {
+            "album": 5,
+            "title": "Must Be the Ganja",
+            "duration": "4:02"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 89,
+        "fields": {
+            "album": 5,
+            "title": "Mr. Mathers (Skit)",
+            "duration": "0:42"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 90,
+        "fields": {
+            "album": 5,
+            "title": "Déjà Vu",
+            "duration": "4:43"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 91,
+        "fields": {
+            "album": 5,
+            "title": "Beautiful",
+            "duration": "6:32"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 92,
+        "fields": {
+            "album": 5,
+            "title": "Crack a Bottle",
+            "duration": "4:57"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 93,
+        "fields": {
+            "album": 5,
+            "title": "Underground",
+            "duration": "6:11"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 6,
+        "fields": {
+            "title": "Recovery",
+            "artist": "Eminem",
+            "release_year": 2010,
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/6/60/Recovery_Album_Cover.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 94,
+        "fields": {
+            "album": 6,
+            "title": "Cold Wind Blows",
+            "duration": "5:04"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 95,
+        "fields": {
+            "album": 6,
+            "title": "Talkin' 2 Myself",
+            "duration": "5:00"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 96,
+        "fields": {
+            "album": 6,
+            "title": "On Fire",
+            "duration": "3:34"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 97,
+        "fields": {
+            "album": 6,
+            "title": "Won't Back Down",
+            "duration": "4:26"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 98,
+        "fields": {
+            "album": 6,
+            "title": "W.T.P.",
+            "duration": "3:58"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 99,
+        "fields": {
+            "album": 6,
+            "title": "Going Through Changes",
+            "duration": "4:59"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 100,
+        "fields": {
+            "album": 6,
+            "title": "Not Afraid",
+            "duration": "4:10"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 101,
+        "fields": {
+            "album": 6,
+            "title": "Seduction",
+            "duration": "4:35"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 102,
+        "fields": {
+            "album": 6,
+            "title": "No Love",
+            "duration": "5:00"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 103,
+        "fields": {
+            "album": 6,
+            "title": "Space Bound",
+            "duration": "4:39"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 104,
+        "fields": {
+            "album": 6,
+            "title": "Cinderella Man",
+            "duration": "4:39"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 105,
+        "fields": {
+            "album": 6,
+            "title": "25 to Life",
+            "duration": "4:02"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 106,
+        "fields": {
+            "album": 6,
+            "title": "So Bad",
+            "duration": "5:25"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 107,
+        "fields": {
+            "album": 6,
+            "title": "Almost Famous",
+            "duration": "4:53"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 108,
+        "fields": {
+            "album": 6,
+            "title": "Love the Way You Lie",
+            "duration": "4:23"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 109,
+        "fields": {
+            "album": 6,
+            "title": "You're Never Over",
+            "duration": "5:06"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 110,
+        "fields": {
+            "album": 6,
+            "title": "Untitled",
+            "duration": "3:14"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 7,
+        "fields": {
+            "title": "The Marshall Mathers LP 2",
+            "artist": "Eminem",
+            "release_year": 2013,
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/8/87/The_Marshall_Mathers_LP_2.png"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 111,
+        "fields": {
+            "album": 7,
+            "title": "Bad Guy",
+            "duration": "7:14"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 112,
+        "fields": {
+            "album": 7,
+            "title": "Parking Lot (Skit)",
+            "duration": "0:55"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 113,
+        "fields": {
+            "album": 7,
+            "title": "Rhyme or Reason",
+            "duration": "5:01"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 114,
+        "fields": {
+            "album": 7,
+            "title": "So Much Better",
+            "duration": "4:21"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 115,
+        "fields": {
+            "album": 7,
+            "title": "Survival",
+            "duration": "4:34"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 116,
+        "fields": {
+            "album": 7,
+            "title": "Legacy",
+            "duration": "4:56"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 117,
+        "fields": {
+            "album": 7,
+            "title": "Asshole",
+            "duration": "4:48"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 118,
+        "fields": {
+            "album": 7,
+            "title": "Berzerk",
+            "duration": "3:58"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 119,
+        "fields": {
+            "album": 7,
+            "title": "Rap God",
+            "duration": "6:04"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 120,
+        "fields": {
+            "album": 7,
+            "title": "Brainless",
+            "duration": "4:46"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 121,
+        "fields": {
+            "album": 7,
+            "title": "Stronger Than I Was",
+            "duration": "5:36"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 122,
+        "fields": {
+            "album": 7,
+            "title": "The Monster",
+            "duration": "4:10"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 123,
+        "fields": {
+            "album": 7,
+            "title": "So Far...",
+            "duration": "5:17"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 124,
+        "fields": {
+            "album": 7,
+            "title": "Love Game",
+            "duration": "4:56"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 125,
+        "fields": {
+            "album": 7,
+            "title": "Headlights",
+            "duration": "5:43"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 126,
+        "fields": {
+            "album": 7,
+            "title": "Evil Twin",
+            "duration": "5:56"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 8,
+        "fields": {
+            "title": "The Chronic",
+            "artist": "Dr. Dre",
+            "release_year": 1992,
+            "cover_image": "https://m.media-amazon.com/images/I/71mlUmU1TVL.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 127,
+        "fields": {
+            "album": 8,
+            "title": "The Chronic (Intro)",
+            "duration": "1:57"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 128,
+        "fields": {
+            "album": 8,
+            "title": "Fuck wit Dre Day (And Everybody's Celebratin')",
+            "duration": "4:52"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 129,
+        "fields": {
+            "album": 8,
+            "title": "Let Me Ride",
+            "duration": "4:21"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 130,
+        "fields": {
+            "album": 8,
+            "title": "The Day the Niggaz Took Over",
+            "duration": "4:33"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 131,
+        "fields": {
+            "album": 8,
+            "title": "Nuthin' but a 'G' Thang",
+            "duration": "3:58"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 132,
+        "fields": {
+            "album": 8,
+            "title": "Deeez Nuuuts",
+            "duration": "5:06"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 133,
+        "fields": {
+            "album": 8,
+            "title": "Lil' Ghetto Boy",
+            "duration": "5:27"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 134,
+        "fields": {
+            "album": 8,
+            "title": "A Nigga Witta Gun",
+            "duration": "3:53"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 135,
+        "fields": {
+            "album": 8,
+            "title": "Rat-Tat-Tat-Tat",
+            "duration": "3:48"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 136,
+        "fields": {
+            "album": 8,
+            "title": "The $20 Sack Pyramid (Skit)",
+            "duration": "2:53"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 137,
+        "fields": {
+            "album": 8,
+            "title": "Lyrical Gangbang",
+            "duration": "4:04"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 138,
+        "fields": {
+            "album": 8,
+            "title": "High Powered",
+            "duration": "2:44"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 139,
+        "fields": {
+            "album": 8,
+            "title": "The Doctor's Office (Skit)",
+            "duration": "1:04"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 140,
+        "fields": {
+            "album": 8,
+            "title": "Stranded on Death Row",
+            "duration": "4:47"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 141,
+        "fields": {
+            "album": 8,
+            "title": "The Roach (The Chronic Outro)",
+            "duration": "4:01"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 142,
+        "fields": {
+            "album": 8,
+            "title": "Bitches Ain't Shit",
+            "duration": "4:58"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 9,
+        "fields": {
+            "title": "2001",
+            "artist": "Dr. Dre",
+            "release_year": 1999,
+            "cover_image": "https://ecsmedia.pl/c/chronic-2001-b-iext161682729.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 143,
+        "fields": {
+            "album": 9,
+            "title": "Lolo (Intro)",
+            "duration": "0:41"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 144,
+        "fields": {
+            "album": 9,
+            "title": "The Watcher",
+            "duration": "3:26"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 145,
+        "fields": {
+            "album": 9,
+            "title": "Fuck You",
+            "duration": "3:25"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 146,
+        "fields": {
+            "album": 9,
+            "title": "Still D.R.E.",
+            "duration": "4:30"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 147,
+        "fields": {
+            "album": 9,
+            "title": "Big Ego's",
+            "duration": "4:03"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 148,
+        "fields": {
+            "album": 9,
+            "title": "XXplosive",
+            "duration": "3:35"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 149,
+        "fields": {
+            "album": 9,
+            "title": "What's the Difference",
+            "duration": "4:04"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 150,
+        "fields": {
+            "album": 9,
+            "title": "Bar One (Skit)",
+            "duration": "0:51"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 151,
+        "fields": {
+            "album": 9,
+            "title": "Light Speed",
+            "duration": "2:40"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 152,
+        "fields": {
+            "album": 9,
+            "title": "Forgot About Dre",
+            "duration": "3:42"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 153,
+        "fields": {
+            "album": 9,
+            "title": "The Next Episode",
+            "duration": "2:41"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 154,
+        "fields": {
+            "album": 9,
+            "title": "Let's Get High",
+            "duration": "2:27"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 155,
+        "fields": {
+            "album": 9,
+            "title": "Bitch Niggaz",
+            "duration": "4:13"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 156,
+        "fields": {
+            "album": 9,
+            "title": "The Car Bomb",
+            "duration": "1:01"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 157,
+        "fields": {
+            "album": 9,
+            "title": "Murder Ink",
+            "duration": "2:28"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 158,
+        "fields": {
+            "album": 9,
+            "title": "Ed-Ucation",
+            "duration": "1:32"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 159,
+        "fields": {
+            "album": 9,
+            "title": "Some L.A. Niggaz",
+            "duration": "4:25"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 160,
+        "fields": {
+            "album": 9,
+            "title": "Pause 4 Porno",
+            "duration": "1:32"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 161,
+        "fields": {
+            "album": 9,
+            "title": "Housewife",
+            "duration": "4:02"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 162,
+        "fields": {
+            "album": 9,
+            "title": "Ackrite",
+            "duration": "3:39"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 163,
+        "fields": {
+            "album": 9,
+            "title": "Bang Bang",
+            "duration": "3:42"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 164,
+        "fields": {
+            "album": 9,
+            "title": "The Message",
+            "duration": "5:04"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 10,
+        "fields": {
+            "title": "Get Rich or Die Tryin’",
+            "artist": "50 Cent",
+            "release_year": 2003,
+            "cover_image": "https://ecsmedia.pl/c/get-rich-or-die-tryin-b-iext160739080.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 165,
+        "fields": {
+            "album": 10,
+            "title": "Intro",
+            "duration": "0:06"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 166,
+        "fields": {
+            "album": 10,
+            "title": "What Up Gangsta",
+            "duration": "2:59"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 167,
+        "fields": {
+            "album": 10,
+            "title": "Patiently Waiting",
+            "duration": "4:48"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 168,
+        "fields": {
+            "album": 10,
+            "title": "Many Men (Wish Death)",
+            "duration": "4:16"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 169,
+        "fields": {
+            "album": 10,
+            "title": "In da Club",
+            "duration": "3:13"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 170,
+        "fields": {
+            "album": 10,
+            "title": "High All the Time",
+            "duration": "4:29"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 171,
+        "fields": {
+            "album": 10,
+            "title": "Heat",
+            "duration": "4:14"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 172,
+        "fields": {
+            "album": 10,
+            "title": "If I Can't",
+            "duration": "3:16"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 173,
+        "fields": {
+            "album": 10,
+            "title": "Blood Hound",
+            "duration": "4:00"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 174,
+        "fields": {
+            "album": 10,
+            "title": "Back Down",
+            "duration": "4:03"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 175,
+        "fields": {
+            "album": 10,
+            "title": "P.I.M.P.",
+            "duration": "4:09"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 176,
+        "fields": {
+            "album": 10,
+            "title": "Like My Style",
+            "duration": "3:13"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 177,
+        "fields": {
+            "album": 10,
+            "title": "Poor Lil Rich",
+            "duration": "3:19"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 178,
+        "fields": {
+            "album": 10,
+            "title": "21 Questions",
+            "duration": "3:44"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 179,
+        "fields": {
+            "album": 10,
+            "title": "Don't Push Me",
+            "duration": "4:08"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 180,
+        "fields": {
+            "album": 10,
+            "title": "Gotta Make It to Heaven",
+            "duration": "4:00"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 11,
+        "fields": {
+            "title": "The Massacre",
+            "artist": "50 Cent",
+            "release_year": 2005,
+            "cover_image": "https://ecsmedia.pl/c/the-massacre-b-iext125096856.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 181,
+        "fields": {
+            "album": 11,
+            "title": "Intro",
+            "duration": "0:42"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 182,
+        "fields": {
+            "album": 11,
+            "title": "In My Hood",
+            "duration": "3:51"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 183,
+        "fields": {
+            "album": 11,
+            "title": "This Is 50",
+            "duration": "3:04"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 184,
+        "fields": {
+            "album": 11,
+            "title": "I'm Supposed to Die Tonight",
+            "duration": "3:51"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 185,
+        "fields": {
+            "album": 11,
+            "title": "Piggy Bank",
+            "duration": "4:15"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 186,
+        "fields": {
+            "album": 11,
+            "title": "Gatman and Robbin",
+            "duration": "3:46"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 187,
+        "fields": {
+            "album": 11,
+            "title": "Candy Shop",
+            "duration": "3:29"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 188,
+        "fields": {
+            "album": 11,
+            "title": "Outta Control",
+            "duration": "3:21"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 189,
+        "fields": {
+            "album": 11,
+            "title": "Get in My Car",
+            "duration": "4:05"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 190,
+        "fields": {
+            "album": 11,
+            "title": "Ski Mask Way",
+            "duration": "3:05"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 191,
+        "fields": {
+            "album": 11,
+            "title": "A Baltimore Love Thing",
+            "duration": "4:17"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 192,
+        "fields": {
+            "album": 11,
+            "title": "Ryder Music",
+            "duration": "3:51"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 193,
+        "fields": {
+            "album": 11,
+            "title": "Disco Inferno",
+            "duration": "3:34"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 194,
+        "fields": {
+            "album": 11,
+            "title": "Just a Lil Bit",
+            "duration": "3:57"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 195,
+        "fields": {
+            "album": 11,
+            "title": "Gunz Come Out",
+            "duration": "4:24"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 196,
+        "fields": {
+            "album": 11,
+            "title": "My Toy Soldier",
+            "duration": "3:44"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 197,
+        "fields": {
+            "album": 11,
+            "title": "Position of Power",
+            "duration": "3:12"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 198,
+        "fields": {
+            "album": 11,
+            "title": "Build You Up",
+            "duration": "2:55"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 199,
+        "fields": {
+            "album": 11,
+            "title": "God Gave Me Style",
+            "duration": "3:01"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 200,
+        "fields": {
+            "album": 11,
+            "title": "So Amazing",
+            "duration": "3:16"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 201,
+        "fields": {
+            "album": 11,
+            "title": "I Don't Need 'Em",
+            "duration": "3:20"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 12,
+        "fields": {
+            "title": "Me Against the World",
+            "artist": "2Pac",
+            "release_year": 1995,
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/7/7e/2Pac_-_Me_Against_the_World.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 202,
+        "fields": {
+            "album": 12,
+            "title": "Intro",
+            "duration": "1:40"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 203,
+        "fields": {
+            "album": 12,
+            "title": "If I Die 2Nite",
+            "duration": "4:01"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 204,
+        "fields": {
+            "album": 12,
+            "title": "Me Against the World",
+            "duration": "4:39"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 205,
+        "fields": {
+            "album": 12,
+            "title": "So Many Tears",
+            "duration": "3:59"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 206,
+        "fields": {
+            "album": 12,
+            "title": "Temptations",
+            "duration": "5:00"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 207,
+        "fields": {
+            "album": 12,
+            "title": "Young Niggaz",
+            "duration": "4:53"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 208,
+        "fields": {
+            "album": 12,
+            "title": "Heavy in the Game",
+            "duration": "4:22"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 209,
+        "fields": {
+            "album": 12,
+            "title": "Lord Knows",
+            "duration": "4:31"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 210,
+        "fields": {
+            "album": 12,
+            "title": "Dear Mama",
+            "duration": "4:40"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 211,
+        "fields": {
+            "album": 12,
+            "title": "It Ain't Easy",
+            "duration": "4:54"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 212,
+        "fields": {
+            "album": 12,
+            "title": "Can U Get Away",
+            "duration": "5:45"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 213,
+        "fields": {
+            "album": 12,
+            "title": "Old School",
+            "duration": "4:41"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 214,
+        "fields": {
+            "album": 12,
+            "title": "Fuck the World",
+            "duration": "4:13"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 215,
+        "fields": {
+            "album": 12,
+            "title": "Death Around the Corner",
+            "duration": "4:07"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 216,
+        "fields": {
+            "album": 12,
+            "title": "Outlaw",
+            "duration": "4:32"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 13,
+        "fields": {
+            "title": "All Eyez on Me",
+            "artist": "2Pac",
+            "release_year": 1996,
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/0/0a/All_eyez_on_me.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 217,
+        "fields": {
+            "album": 13,
+            "title": "Ambitionz Az a Ridah",
+            "duration": "4:39"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 218,
+        "fields": {
+            "album": 13,
+            "title": "All Bout U",
+            "duration": "4:37"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 219,
+        "fields": {
+            "album": 13,
+            "title": "Skandalouz",
+            "duration": "4:09"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 220,
+        "fields": {
+            "album": 13,
+            "title": "Got My Mind Made Up",
+            "duration": "5:13"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 221,
+        "fields": {
+            "album": 13,
+            "title": "How Do U Want It",
+            "duration": "4:47"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 222,
+        "fields": {
+            "album": 13,
+            "title": "2 of Amerikaz Most Wanted",
+            "duration": "4:07"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 223,
+        "fields": {
+            "album": 13,
+            "title": "No More Pain",
+            "duration": "6:14"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 224,
+        "fields": {
+            "album": 13,
+            "title": "Heartz of Men",
+            "duration": "4:43"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 225,
+        "fields": {
+            "album": 13,
+            "title": "Life Goes On",
+            "duration": "5:02"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 226,
+        "fields": {
+            "album": 13,
+            "title": "Only God Can Judge Me",
+            "duration": "4:57"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 227,
+        "fields": {
+            "album": 13,
+            "title": "Tradin War Stories",
+            "duration": "5:29"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 228,
+        "fields": {
+            "album": 13,
+            "title": "California Love",
+            "duration": "6:25"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 229,
+        "fields": {
+            "album": 13,
+            "title": "I Ain't Mad at Cha",
+            "duration": "4:53"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 230,
+        "fields": {
+            "album": 13,
+            "title": "What'z Ya Phone #",
+            "duration": "5:10"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 14,
+        "fields": {
+            "title": "Ready to Die",
+            "artist": "The Notorious B.I.G.",
+            "release_year": 1994,
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/5/51/Ready_to_Die.jpg"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 231,
+        "fields": {
+            "album": 14,
+            "title": "Intro",
+            "duration": "3:24"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 232,
+        "fields": {
+            "album": 14,
+            "title": "Things Done Changed",
+            "duration": "3:58"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 233,
+        "fields": {
+            "album": 14,
+            "title": "Gimme the Loot",
+            "duration": "5:04"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 234,
+        "fields": {
+            "album": 14,
+            "title": "Machine Gun Funk",
+            "duration": "4:17"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 235,
+        "fields": {
+            "album": 14,
+            "title": "Warning",
+            "duration": "3:40"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 236,
+        "fields": {
+            "album": 14,
+            "title": "Ready to Die",
+            "duration": "4:24"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 237,
+        "fields": {
+            "album": 14,
+            "title": "One More Chance",
+            "duration": "4:43"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 238,
+        "fields": {
+            "album": 14,
+            "title": "Fuck Me (Interlude)",
+            "duration": "1:31"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 239,
+        "fields": {
+            "album": 14,
+            "title": "The What",
+            "duration": "3:57"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 240,
+        "fields": {
+            "album": 14,
+            "title": "Juicy",
+            "duration": "5:02"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 241,
+        "fields": {
+            "album": 14,
+            "title": "Everyday Struggle",
+            "duration": "5:19"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 242,
+        "fields": {
+            "album": 14,
+            "title": "Me & My Bitch",
+            "duration": "4:00"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 243,
+        "fields": {
+            "album": 14,
+            "title": "Big Poppa",
+            "duration": "4:13"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 244,
+        "fields": {
+            "album": 14,
+            "title": "Respect",
+            "duration": "5:21"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 245,
+        "fields": {
+            "album": 14,
+            "title": "Friend of Mine",
+            "duration": "3:28"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 246,
+        "fields": {
+            "album": 14,
+            "title": "Unbelievable",
+            "duration": "3:43"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 247,
+        "fields": {
+            "album": 14,
+            "title": "Suicidal Thoughts",
+            "duration": "2:50"
+        }
+    },
+    {
+        "model": "ap.album",
+        "pk": 15,
+        "fields": {
+            "title": "Life After Death",
+            "artist": "The Notorious B.I.G.",
+            "release_year": 1997,
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/7/7f/The_Notorious_B.I.G._-_Life_After_Death.png"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 248,
+        "fields": {
+            "album": 15,
+            "title": "Life After Death Intro",
+            "duration": "1:39"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 249,
+        "fields": {
+            "album": 15,
+            "title": "Somebody's Gotta Die",
+            "duration": "4:26"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 250,
+        "fields": {
+            "album": 15,
+            "title": "Hypnotize",
+            "duration": "3:50"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 251,
+        "fields": {
+            "album": 15,
+            "title": "Kick in the Door",
+            "duration": "4:47"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 252,
+        "fields": {
+            "album": 15,
+            "title": "Fuck You Tonight",
+            "duration": "5:45"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 253,
+        "fields": {
+            "album": 15,
+            "title": "Last Day",
+            "duration": "4:19"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 254,
+        "fields": {
+            "album": 15,
+            "title": "I Love the Dough",
+            "duration": "5:11"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 255,
+        "fields": {
+            "album": 15,
+            "title": "What's Beef?",
+            "duration": "5:15"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 256,
+        "fields": {
+            "album": 15,
+            "title": "B.I.G. Interlude",
+            "duration": "0:48"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 257,
+        "fields": {
+            "album": 15,
+            "title": "Mo Money Mo Problems",
+            "duration": "4:17"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 258,
+        "fields": {
+            "album": 15,
+            "title": "Niggas Bleed",
+            "duration": "4:51"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 259,
+        "fields": {
+            "album": 15,
+            "title": "I Got a Story to Tell",
+            "duration": "4:42"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 260,
+        "fields": {
+            "album": 15,
+            "title": "Notorious Thugs",
+            "duration": "6:07"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 261,
+        "fields": {
+            "album": 15,
+            "title": "Miss U",
+            "duration": "4:58"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 262,
+        "fields": {
+            "album": 15,
+            "title": "Another",
+            "duration": "4:15"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 263,
+        "fields": {
+            "album": 15,
+            "title": "Going Back to Cali",
+            "duration": "5:07"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 264,
+        "fields": {
+            "album": 15,
+            "title": "Ten Crack Commandments",
+            "duration": "3:24"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 265,
+        "fields": {
+            "album": 15,
+            "title": "Playa Hater",
+            "duration": "3:57"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 266,
+        "fields": {
+            "album": 15,
+            "title": "Nasty Boy",
+            "duration": "5:34"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 267,
+        "fields": {
+            "album": 15,
+            "title": "Sky's the Limit",
+            "duration": "5:29"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 268,
+        "fields": {
+            "album": 15,
+            "title": "The World Is Filled...",
+            "duration": "4:54"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 269,
+        "fields": {
+            "album": 15,
+            "title": "My Downfall",
+            "duration": "5:26"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 270,
+        "fields": {
+            "album": 15,
+            "title": "Long Kiss Goodnight",
+            "duration": "4:14"
+        }
+    },
+    {
+        "model": "ap.track",
+        "pk": 271,
+        "fields": {
+            "album": 15,
+            "title": "You're Nobody (Til Somebody Kills You)",
+            "duration": "4:52"
+        }
+    }
+]

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Lobby</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'ap/styles.css' %}">
+</head>
+<body>
+    <header>
+        <div class="user-actions">
+            {% if user.is_authenticated %}
+                <span>Witaj, {{ user.username }}!</span>
+                <a href="{% url 'logout' %}">Wyloguj się</a>
+            {% else %}
+                <a href="{% url 'login' %}">Zaloguj się</a>
+                <a href="{% url 'register' %}">Zarejestruj się</a>
+            {% endif %}
+        </div>
+    </header>
+    <h1>Albumy różnych artystów</h1>
+    <div class="album-grid">
+        {% for album in albums %}
+            <div class="album-card">
+                <a href="{% url 'album_detail' album.id %}">
+                    {% if album.cover_image %}
+                        <img src="{{ album.cover_image }}" alt="Okładka {{ album.title }}">
+                    {% endif %}
+                    <div class="album-info">
+                        <strong>{{ album.title }}</strong>
+                        <span class="artist">{{ album.artist }}</span>
+                        <span class="year">({{ album.release_year }})</span>
+                    </div>
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rejestracja</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'ap/styles.css' %}">
+</head>
+<body>
+    <div class="auth-container">
+        <h1>Rejestracja</h1>
+        <form method="post" class="auth-form">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="auth-button">Zarejestruj się</button>
+        </form>
+        <p>Masz już konto? <a href="{% url 'login' %}">Zaloguj się</a></p>
+    </div>
+</body>
+</html>
