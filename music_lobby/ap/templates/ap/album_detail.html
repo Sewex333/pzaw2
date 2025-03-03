@@ -8,6 +8,7 @@
 <body>
     <div class="tracklist-container">
         <h1>{{ album.title }} - {{ album.artist }} ({{ album.release_year }})</h1>
+        
         <div class="album-stats">
             <p>Średnia ocena: {{ album.average_rating|default:"Brak ocen" }}</p>
             <p>Liczba ocen: {{ album.total_ratings }}</p>
