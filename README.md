@@ -1,3 +1,5 @@
+# Music Lobby
+
 Music lobby to aplikacja która skupia w jednym miejscu jedne z najlpszych rapowych albumów 
 
 - mozliwosc utoworzenia swojego konta
@@ -5,7 +7,7 @@ Music lobby to aplikacja która skupia w jednym miejscu jedne z najlpszych rapow
 - opcja penelu użytkownika gdzie są pokazane ulubione albumy czy ilość dodanych komentarzy czy ocen
 - każdy album ma rozpisaną trackliste oraz długość trwania każdego utworu
 
- #Przygotuj projekt 
+ ## Przygotuj projekt 
 ``` bash
    python manage.py migrate
 ``` 
