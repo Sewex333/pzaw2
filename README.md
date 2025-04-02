@@ -5,5 +5,13 @@ Music lobby to aplikacja która skupia w jednym miejscu jedne z najlpszych rapow
 - opcja penelu użytkownika gdzie są pokazane ulubione albumy czy ilość dodanych komentarzy czy ocen
 - każdy album ma rozpisaną trackliste oraz długość trwania każdego utworu
 
-- w przypadku gdyby coś nie działało w konsoli należy wpisać "python manage.py loaddata albums.json" aby załadować dane z pliku json
+1. Przygotuj projekt 
+``` bash
+   python manage.py migrate
+``` 
+
+``` bash
+   python manage.py loaddata albums.json
+``` 
+
 
